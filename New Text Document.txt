@@ -1,0 +1,55 @@
+Write a JavaScript program to find the length of a string without 
+using predefined methods and use for loop, for-in loop, and for-of 
+loop.
+
+
+ for-of loop:
+
+
+ var str = "nandiswar";
+ var count=0;
+ for(let i of str)
+ {
+ count++;
+ }
+ console.log("lenght of given string is : " + count)
+
+
+ o/p:
+ lenght of given string is : 9
+
+
+ for-in loop:
+
+ var str = "nandiswar";
+ var count=0;
+ for(let i in str)
+ {
+ count++;
+ }
+ console.log("lenght of given string is : " + count)
+
+ o/p:
+ lenght of given string is : 9
+
+ for loop:
+ 
+
+var str = "nandiswar";
+var count=0;
+for(let i=0;i<100;i++)
+{
+   if(str[i] != undefined)
+   {
+       count++;
+   }
+}
+console.log("lenght of given string is : " + count)
+
+
+o/p:
+
+lenght of given string is : 9
+
+
+
